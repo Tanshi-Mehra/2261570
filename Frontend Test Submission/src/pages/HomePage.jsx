@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { logEvent } from "../../../Logging Middleware/logger";
-import UserInfo from "../components/UserInfo";
+import UserInfo from "../Components/userinfo.jsx";
 
 const HomePage = () => {
   const [user, setUser] = useState(null);
